@@ -1,0 +1,17 @@
+.barra {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 20px;
+}
+
+.cartoes {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.cartao {
+  display: flex;
+  flex-direction: column;
+}
