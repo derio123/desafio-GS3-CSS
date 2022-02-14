@@ -1,0 +1,7 @@
+{
+  "name": "desafio-gs3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
