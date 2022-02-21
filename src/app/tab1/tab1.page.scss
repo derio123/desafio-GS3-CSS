@@ -1,17 +1,121 @@
 .barra {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-wrap: nowrap;
-  height: 20px;
+  height: 40px;
+  border-radius: 100px;
+  margin-left:13px
 }
 
 .cartoes {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
+  font-size: 18px; 
 }
 
 .cartao {
   display: flex;
   flex-direction: column;
+  margin: 10px;
+  font-family: serif;
+}
+
+.cartao img {
+  display: flex;
+  font-size: 100px;
+  border-radius: 7px;
+}
+
+ion-badge {
+  margin-bottom: 15px;
+  border-radius: 50px;
+  margin-left: -20px;
+}
+
+.icon {
+  width: 40px;
+}
+
+.iconLanca {
+  background-color: #fff;
+}
+
+.limSaldo {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+} 
+
+.seta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  color: #15aff2;
+}
+
+.buttonShop {
+  display: flex;
+  padding: 7px;
+  margin: 10px;
+  background-color: #052c58;
+}
+
+.limTitleCard {
+  margin: 15px;
+  font-size: 16px; 
+  font-family: serif;
+  color: #000000;
+}
+
+.tool {
+  background-color: #073567;
+  border: none;
+  border-radius: 12px 12px 0 0;
+  border: solid #073567 1px;
+}
+
+.dispCard {
+  background-color: #eff1f5;
+}
+
+.cardDisp {
+  color: #0d3e84;
+  font-weight: 600;
+  font-style: normal;
+  font-family: serif;
+  font-size: 0.9em;
+}
+
+.cardDispSub {
+  font-weight: 300;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.lancamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+}
+
+.lancamentos {
+  background-color: #f1f9fd;
+}
+
+.valor {
+  font-size: 14px;
+  color: #0d3e84;
+  font-weight: 800;
+}
+
+.parcela {
+  font-size: 10px;
+}
+
+.cardVisa {
+  font-size: 10px;
 }

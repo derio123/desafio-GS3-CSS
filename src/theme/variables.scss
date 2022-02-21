@@ -10,6 +10,7 @@
   --ion-color-primary-contrast-rgb: 255, 255, 255;
   --ion-color-primary-shade: #3171e0;
   --ion-color-primary-tint: #4c8dff;
+  --ion-color-blue:#073567;
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -20,7 +21,7 @@
   --ion-color-secondary-tint: #50c8ff;
 
   /** tertiary **/
-  --ion-color-tertiary: #5260ff;
+  --ion-color-tertiary: #073567;
   --ion-color-tertiary-rgb: 82, 96, 255;
   --ion-color-tertiary-contrast: #ffffff;
   --ion-color-tertiary-contrast-rgb: 255, 255, 255;
@@ -234,3 +235,48 @@
     --ion-card-background: #1e1e1e;
   }
 }
+ 
+ion-content {
+  display: flex;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 13px;
+}  
+
+.saudacao {
+  margin-left: 13px;
+  font-size: 13px;
+}
+
+.lim {  
+  margin-left: 13px;
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.limUti {
+  margin: 10px;
+  margin-left: 13px;
+  font-size: 13px; 
+  font-family: serif;
+}
+
+.limTitle {
+  margin-left: 12px;
+  font-size: 20px; 
+  font-family: serif;
+  color: #ffffff;
+}
+
+.limSub {
+  margin-left: 12px;
+  font-size: 11px;
+  color: #188ac0;
+}
+
+.nome {
+  font-size: 32px;
+}
+
